@@ -197,6 +197,25 @@ nav ul li .active{
 	  height:70vh;
 	
 }
+.line{
+	     width:300px;
+	
+}
+.line:after{
+	            border-bottom:1px dotted white;
+				content:'';
+				flex:1;
+}	
+.item-1:hover{ 
+			 background-color:#CDA45E;
+					 
+						  
+}
+.item-1:hover .item-2{ 
+					  
+					  color:white;
+						  
+}
 .menu-flex{
 	       display:flex;
 		   padding:0rem 5rem;
@@ -241,3 +260,43 @@ nav ul li .active{
 				font-family:sans-serif;
 	
 }
+.container-3{
+	           background-color:#1A1814;
+}
+.container-4{
+	           background-color:#1A1814;
+			   padding:3rem 5rem;
+			   color:white;
+}
+.items{
+	    display:flex;
+		padding-bottom:3rem;
+	
+}
+.items .items-sub{
+	              padding:0rem 1rem;
+}
+.items-list{
+	        display:flex;
+}	   
+.nav-2{
+	  text-align:center;
+}
+.menu-2{
+	    color:white;
+		padding:2rem 5rem;
+}
+.menu-2 h2{
+	        color:#CDA45E;
+			font-size:2rem;
+			padding-top:0.5rem;	
+}	
+.items img{
+	        border-radius:100%;
+			border:5px solid #484643;
+			height:70px;
+			width:70px;
+}		   
+			   
+			   
+	
