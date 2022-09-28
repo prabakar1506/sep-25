@@ -341,3 +341,9 @@ nav ul li .active{
 				 font-size:1.5rem;
 				 padding-bottom:2rem;
 }
+.special-item p{
+	             padding-bottom:2rem;
+}
+.special-item img{
+	               margin-left:4rem;
+}
