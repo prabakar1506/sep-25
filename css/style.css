@@ -259,6 +259,12 @@ nav ul li .active{
 			   padding:5rem;
 			   color:white;
 }
+.items-sub .dotted{
+	                font-size:8px;
+					color:#656159;
+					letter-spacing:2px;
+	
+}
 .items{
 	    display:flex;
 		padding-bottom:3rem;
@@ -330,6 +336,12 @@ nav ul li .active{
 				   height:300px;
 				   width:300px;
 }
+.nav-3 .act{
+	         background-color:#CDA45E;
+			 padding-right:50%;
+			 color:black;
+	
+}	
 .nav-3 ul li{
 	          display:block;
 }
@@ -343,7 +355,45 @@ nav ul li .active{
 }
 .special-item p{
 	             padding-bottom:2rem;
+				 color:#484643;
 }
 .special-item img{
 	               margin-left:4rem;
+}
+.event{
+	    height:100vh;
+		background-image:url("D:/fabevy/practice/sep-25/img/events-bg.jpg");
+		background-attachment:fixed;
+		position:relative;
+		z-index:1;
+		color:white;
+	 
+}
+.event-head{
+	         padding:5rem;
+			 position:relative;
+			 z-index:1;
+	
+}
+.event::after{
+	          content:"";
+			  position:absolute;
+			  background-color:black;
+			  opacity:0.5;
+			  top:0;
+			  bottom:0;
+			  right:0;
+			  left:0;
+}
+.container-event{
+	              display:flex;
+	         
+}
+.container-event img{
+	                  width:50%;
+					  margin:;
+}
+.event-2{
+	      position:relative;
+			 z-index:1;
 }
