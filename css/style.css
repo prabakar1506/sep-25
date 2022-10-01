@@ -20,7 +20,7 @@
 			  left:0;
 			 
 }
-.home1{
+/*.home1{
 	      display:flex;
 		  padding-top:1rem;
 		  font-family:sans-serif;
@@ -36,14 +36,14 @@
 .home1 span{
 	          color:#CDA45E;
 	
-}
+}*/
 header{
-	    background-color:rgba(12, 11, 9, 0.6);
+	    background-color:rgba(12, 11, 9, 0.8);
 		border-bottom:0.2px solid #CDA45E;
-		margin-top:1rem;
-		padding:1rem;
-		z-index:1;
-	    position:relative;
+		padding:1.2rem;
+		z-index:2;
+	    position:fixed;
+		
 }
 .logo{
 	   font-family:sans-serif;
@@ -54,7 +54,7 @@ header{
 	   
 }
 nav{
-	  margin-left:2rem;
+	  margin-left:9rem;
 	 
 	  
 	
@@ -96,7 +96,7 @@ nav ul li .active{
 	      z-index:1;
 		  color:#ffffff;
 		  font-family:sans-serif;
-		  margin-top:11rem;
+		  padding-top:17rem;
 		  padding-left:8rem;
 		  position:relative;
 	
@@ -545,4 +545,105 @@ textarea:focus{
 }
 .details{
 	      padding-top:1rem;
+}
+.gallery{
+	     background-color:black;
+		 padding-bottom:4rem;
+}
+.gallery-head{
+	           padding:5rem;
+}
+.gallery-wrap{
+	           display:flex;
+			   flex-wrap:wrap;
+			   
+}
+.gallery-wrap .img-2{
+	                 width:24.6%;
+					 overflow:hidden;
+					 border:2px solid #454035;
+					
+}
+.img-2 img{
+	       width:100%;
+		 
+}
+.img-2 img:hover{
+	              transform:scale(1.1);
+				  transition:ease-in 0.3s delay;
+}
+.gallery-head h2{
+	           color:#CDA45E;
+			   font-size:2rem;
+			   font-family:sans-serif;
+			   
+}
+.gallery-head h3{
+	           color:#7F7E7C;
+			   font-size:1.2rem;
+			   font-family:roboto;
+}
+.chef{
+	   background-color:black;
+	   color:black;
+	   padding-bottom:4rem;
+}
+.chef-head{
+	       padding:2rem 5rem;
+}
+.chef-head h2{
+	           color:#CDA45E;
+			   font-size:2rem;
+			   font-family:sans-serif;
+			   
+}
+.chef-head h3{
+	           color:#7F7E7C;
+			   font-size:1.2rem;
+			   font-family:roboto;
+}
+.chef-flex{
+	        display:flex;
+			padding:0rem 5rem;
+			justify-content:center;
+			align-items:center;
+	
+}
+.img-3{
+	    padding:1rem;
+		position:relative;
+		width:33.33%;
+}
+.img-3:hover::after{
+					   content:"";
+					   position:absolute;
+					   opacity:0.1;
+					   background-color:black;
+					   top:0;
+					   bottom:0;
+					   left:0;
+					   right:0;
+}            
+.img-3 img{
+	          width:100%;
+}
+.persons{
+	          margin-top:-7rem;
+			  text-align:center;
+	          line-height:1.5rem;
+			  display:none;
+}
+.person-detail{
+	           padding-bottom:1rem;
+}
+.persons span{
+	           font-style:italic;
+
+}
+.social i{
+	       color:black;
+		   margin:1rem;
+}
+.img-3:hover .persons{
+	                   display:block;
 }
