@@ -647,3 +647,94 @@ textarea:focus{
 .img-3:hover .persons{
 	                   display:block;
 }
+.contact{
+	       background-color:black;
+		   padding-bottom:3rem;
+}
+.contact-head{
+	          padding:2rem 5rem;
+}
+.gmap_iframe{
+	         width:100%;
+			 height:50vh;
+}
+.contact-head h2{
+	           color:#CDA45E;
+			   font-size:2rem;
+			   font-family:sans-serif;
+			   
+}
+.contact-head h3{
+	           color:#7F7E7C;
+			   font-size:1.2rem;
+			   font-family:roboto;
+}
+.form-3{
+	     padding:5rem;
+		 background-color:black;
+}
+.i-flex{
+	     display:flex;
+		  padding:1rem;
+}
+.i-flex div{
+	         padding-left:1rem;
+}
+.add{
+	  padding-bottom:-2rem;
+}
+.add h2{
+	     font-family:sans-serif;
+		 color:white;
+		 font-size:1.2rem;
+}
+.add h3{
+	     font-size:1rem;
+		 color:#B1AB9E;
+}
+.i-flex i{
+	       color:white;
+		   font-size:1.2rem;
+		   padding:0.7rem;
+		   border:1px solid #CDA45E;
+		   background-color:#CDA45E;
+		   border-radius:100%;
+}
+.container-form-3{
+	               display:flex;
+}
+.form-flex{
+	       width:50%;
+		  
+}
+.form-gap{
+		   width:80%;
+}
+#name1{
+	   width:48%;
+}
+#email1{
+	   width:48%;
+}
+#subject1{
+	     width:100%;
+}
+input{
+	  padding:1rem;
+	  margin:1rem;
+}
+.text1{
+	      width:100%;
+		  padding-bottom:2rem;
+		  margin:1rem;
+		  height:20vh;
+}
+.circle2{
+	     margin-left:40%;
+		 text-decoration:none;
+		 border:1px solid #CDA45E;
+		 color:white;
+		 background-color:#CDA45E;
+		 border-radius:25px;
+		 padding:1rem 3rem;
+}
