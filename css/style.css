@@ -766,3 +766,79 @@ input{
 .btn5{
 	   padding-top:2rem;
 }
+.footer-sec{
+	        background-color:#0C0B09;
+			padding:3rem;
+            color:white;			
+}
+.footer{
+	     display:flex;
+		 justify-content:space-evenly;
+}
+.footer h4{
+	        padding-bottom:1rem; 
+}
+.address a{
+	        text-decoration:none;
+			color:white;
+}
+.links ul li{
+	         list-style:none;
+			 line-height:2rem;
+}
+.ourser ul li{
+	          list-style:none;
+			   line-height:2rem;
+}
+.icon ul li{
+	         list-style:none;
+			 margin-left:0.5rem;
+			 display:inline-block;
+}
+.footer-input{
+	          height:6vh;
+			  width:60%;
+			  border:1px solid black;
+			  border-radius:25px;
+			  outline:none;
+			  position:relative;
+}
+.btn11{
+	    position:absolute;
+		border:1px solid black;
+		border-radius:25px;
+	    padding:0.6rem 0.8rem;
+		margin-top:1rem;
+		margin-left:-4rem;
+}
+.link{
+	   padding-left:3rem;
+}
+.search {
+	      padding-left:3rem;
+}
+.search .align{
+	           padding-left:1.5rem;
+}
+.add h3{
+	     padding-bottom:2rem;
+}
+.add2 {
+	     padding-bottom:2rem;
+}
+.link iconify-icon{
+	               padding-left:2rem;
+}
+.ourserv iconify-icon{
+	                padding-right:2rem;
+}
+.icon iconify-icon{
+	                border-radius:100%;
+					background-color:#28251F;
+					border:1px solid white;
+					padding:0.5rem;
+}
+.icon{
+	  padding-top:2rem;
+	  
+}
