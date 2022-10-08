@@ -1,6 +1,7 @@
 *{
 	margin:0px;
 	padding:0px;
+	border-sizing:border-box;
 }
 .home{
       background-image:url("D:/fabevy/practice/sep-25/img/hero-bg.jpg");
@@ -8,11 +9,12 @@
 	  height:100vh;
 	  background-size:cover;
 	  position:relative;
+	  background-position:center center;
 }
 .home::after{
 	          content:"";
 			  position:absolute;
-			  opacity:0.5;
+			  opacity:0.8;
 			  background-color:black;
 			  top:0;
 			  bottom:0;
@@ -54,7 +56,7 @@ header{
 	   
 }
 nav{
-	  margin-left:9rem;
+	  padding-left:9rem;
 	 
 	  
 	
@@ -128,6 +130,7 @@ nav ul li .active{
 }
 .about{
 	   background-image:url("D:/fabevy/practice/sep-25/img/about-bg.jpg");
+	   background-position:center center;
 	   background-size:cover;
 	   background-attachment:fixed;
 	   position:relative;
@@ -308,7 +311,7 @@ nav ul li .active{
 }	
 .special-1{
 	           background-color:#0C0B09;
-			   padding:5rem;
+			   padding:3rem;
 	
 }
 .special-head{
@@ -325,51 +328,73 @@ nav ul li .active{
 }
 .special-flex{
 	           display:flex;
-			   margin:0 auto;
+			   padding-left:4rem;
+			   justify-content:space-between;
+			   width:100%;
 }
-.special-item{
-			   font-family:sans-serif;
-			   padding-top:2rem;
-			   width:33%;
-			   color:white;
+.special-flex1{
+	           display:flex;
+			   width:100%;
 }
-.special-item p{
+.special-main{
+	           padding-top:3rem;
+}
+.special-item-1,.special-item-2{
+							    font-family:sans-serif;
+								color:white;
+}
+.special-item-2{
+	            width:50%;
+				padding-left:2rem;
+}
+.special-item-1{
+	            width:21.4%;
+				position:relative;
+				border-right:3px solid #CDA45E;
+}
+.special-item-2 p{
 	             font-size:1.2rem;
                  font-weight:500;
 				 color:#868685
 }
-.special-item img{
+.special-item-3{
+	            padding-left:3rem;
+}
+.special-item-3 img{
 	               border-radius:100%;
 				   height:250px;
 				   width:250px;
 }
-.nav-3 .act{
-	         background-color:#CDA45E;
-			 padding-right:50%;
-			 color:black;
+.special-item-1 .act{
+					 background-color:#CDA45E;
+					 position:absolute;
+					 padding-right:60%;
+					 color:black;
 	
 }	
-.nav-3 ul li{
-	          display:block;
+.special-item-1 li{
+	               list-style:none;
 }
-.nav-3 ul li a{
-	            line-height:2rem;
+.special-item-1 li a{
+						line-height:3rem;
+						font-size:1rem;
+						font-weight:bold;
+						color:white;
+						text-decoration:none;
 }
-.special-item h1{
+.special-item-2 h1{
 	             font-weight:600;
 				 font-size:1.5rem;
 				 padding-bottom:2rem;
 }
-.special-item p{
+.special-item-2 p{
 	             padding-bottom:2rem;
-				 color:#484643;
-}
-.special-item img{
-	               margin-left:4rem;
+				 color:white;
 }
 .event{
 	    height:100vh;
 		background-image:url("D:/fabevy/practice/sep-25/img/events-bg.jpg");
+		background-position:center center;
 		background-attachment:fixed;
 		position:relative;
 		z-index:1;
@@ -730,11 +755,14 @@ input{
 		  height:20vh;
 }
 .circle2{
-	     margin-left:40%;
+	     margin-left:38%;
 		 text-decoration:none;
 		 border:1px solid #CDA45E;
 		 color:white;
 		 background-color:#CDA45E;
 		 border-radius:25px;
 		 padding:1rem 3rem;
+}
+.btn5{
+	   padding-top:2rem;
 }
